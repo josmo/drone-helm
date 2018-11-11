@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/ipedrazas/drone-helm/plugin"
+	"github.com/josmo/drone-helm/plugin"
 	"github.com/joho/godotenv"
 	"github.com/urfave/cli"
 )
