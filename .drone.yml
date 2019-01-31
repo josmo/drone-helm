@@ -36,7 +36,6 @@ steps:
 
 - name: publish_linux_amd64
   image: plugins/docker
-  group: publish
   auto_tag: true
   username:
     from_secret: docker_username
