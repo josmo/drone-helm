@@ -1,6 +1,6 @@
 # Helm (Kubernetes) plugin for drone.io
 
-[![Build Status](https://drone.pelo.tech/api/badges/josmo/drone-helm/status.svg)](https://drone.pelo.tech/josmo/drone-helm)
+[![Build Status](https://cloud.drone.io/api/badges/josmo/drone-helm/status.svg)](https://cloud.drone.io/josmo/drone-helm)
 [![Go Doc](https://godoc.org/github.com/josmo/drone-helm?status.svg)](http://godoc.org/github.com/josmo/drone-helm)
 [![Go Report](https://goreportcard.com/badge/github.com/josmo/drone-helm)](https://goreportcard.com/report/github.com/josmo/drone-helm)
 [![](https://images.microbadger.com/badges/image/peloton/drone-helm.svg)](https://microbadger.com/images/peloton/drone-helm "Get your own image badge on microbadger.com")
@@ -40,4 +40,3 @@ This repo is setup in a way that if you enable a personal drone server to build 
  
 * Build local ```DRONE_REPO_OWNER=ipedrazas DRONE_REPO_NAME=drone-helm drone exec```
 * on your server just make sure you have DOCKER_USERNAME, DOCKER_PASSWORD, and PLUGIN_REPO set as secrets
- 
