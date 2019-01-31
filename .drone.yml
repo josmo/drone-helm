@@ -42,7 +42,7 @@ steps:
   password:
     from_secret: docker_password
   repo:
-    from_secret: plugin_repo
+    from_secret: dockerhub_repo
   dockerfile: Dockerfile
   when:
     event: [ tag, push ]
